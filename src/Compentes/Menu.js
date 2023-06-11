@@ -110,7 +110,6 @@ export function MyTabs() {
 
   return (
     <div>
-      {/* <Menu1/> */}
       <Tabs value={value} onChange={handleChange} aria-label="My tabs" textColor="secondary"
         indicatorColor="secondary" sx={{ color: pink[300], direction: 'rtl' }}>
         <Tab label="בחירה מתוך מאמרים קיימים" />
