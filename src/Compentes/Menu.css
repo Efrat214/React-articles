@@ -1,0 +1,59 @@
+.allPage {
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+}
+
+.sideNavBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 2px solid #ddd;
+  height: 750px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+}
+
+.itemInsideNavBar {
+  margin: 5vh 0;
+}
+
+img {
+  height: 9.5vh;
+  margin-top: 9.5vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .allPage {
+    flex-direction: column;
+  }
+
+  .sideNavBar {
+    width: 100%;
+    height: auto;
+    border-left: none;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .itemInsideNavBar {
+    margin: 5vh;
+  }
+
+  img {
+    height: 7vh;
+    margin-top: 5vh;
+  }
+
+  .main {
+    margin-top: 5vh;
+  }
+}
